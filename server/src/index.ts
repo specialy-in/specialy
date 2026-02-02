@@ -28,22 +28,10 @@ let bucket: any = null;
 
 try {
     const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || './serviceAccountKey.json';
-    const envJson = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
 
-    let credential;
-    if (envJson) {
-        try {
-            credential = cert(JSON.parse(envJson));
-        } catch (e) {
-            console.error('[Firebase] ❌ Failed to parse FIREBASE_SERVICE_ACCOUNT_JSON', e);
-        }
-    } else if (process.env.GOOGLE_APPLICATION_CREDENTIALS || fs.existsSync(credPath)) {
-        credential = cert(credPath);
-    }
-
-    if (credential) {
+    if (process.env.GOOGLE_APPLICATION_CREDENTIALS || fs.existsSync(credPath)) {
         initializeApp({
-            credential,
+            credential: cert(credPath),
             storageBucket: process.env.FIREBASE_STORAGE_BUCKET
         });
         db = getFirestore();
@@ -216,7 +204,7 @@ app.post('/api/render-changes', async (req: Request, res: Response) => {
                 ]
             }],
             generationConfig: {
-                temperature: 0.1, // Very low temperature for strict adherence
+                temperature: 0.4,
                 // @ts-ignore
                 responseModalities: ['IMAGE']
             }
@@ -227,9 +215,6 @@ app.post('/api/render-changes', async (req: Request, res: Response) => {
 
         // Get candidates from response
         const candidates = result.response.candidates;
-
-        // ... (rest of the file)
-
 
         // Log full response structure to file
         log('🔍 Full response structure', {
@@ -541,17 +526,16 @@ ${editIndex}. FLOOR EDIT:
     const hasFloor = floorChanges.length > 0;
 
     const strictConstraints = `
-   CRITICAL CONSTRAINTS - INPAINTING MODE:
-   1. ACT AS AN INPAINTING MODEL. PRESERVE THE EXACT SCENE GEOMETRY.
-   2. DO NOT CHANGE THE CAMERA ANGLE, ZOOM, OR PERSPECTIVE.
-   3. DO NOT REGENERATE THE ROOM. PIXEL-PERFECT PRESERVATION OF NON-EDITED AREAS IS REQUIRED.
-   4. DO NOT MOVE OR CHANGE FURNITURE.
-   5. ONLY MODIFY THE PIXELS OF THE FLOOR AREA.
-   6. The output must overlay perfectly with the original image.
+   CRITICAL CONSTRAINTS:
+   1. DO NOT CHANGE THE CAMERA ANGLE, ZOOM, OR PERSPECTIVE.
+   2. DO NOT CHANGE THE GEOMETRY OF THE ROOM (walls, windows, ceiling, doors).
+   3. DO NOT MOVE OR CHANGE FURNITURE.
+   4. ONLY modify the specified surface materials (wall paint or flooring).
+   5. The output must overlay perfectly with the original image.
     `;
 
     if (hasWalls && hasFloor) {
-        return `TASK: INPAINTING / IMAGE EDITING
+        return `You are a professional interior design AI assistant.
 
 I provide TWO images of the same room:
 
@@ -560,9 +544,9 @@ IMAGE 1 (Current): The room photo that needs editing.
 IMAGE 2 (Reference): Shows wall(s) marked with ORANGE POLYGON overlay.
 The polygon indicates the EXACT wall surface to edit.
 
-YOUR GOAL:
-1. For WALL edits: Inpaint the wall area defined by the orange polygon in IMAGE 2.
-2. For FLOOR edits: Auto-segment the floor area and inpaint with the new material.
+YOUR TASK:
+1. For WALL edits: Look at IMAGE 2 to identify wall locations, then apply colors to IMAGE 1
+2. For FLOOR edits: Auto-detect the floor area in IMAGE 1 and apply the material
 
 EDITS TO APPLY:
 ${editInstructions}
@@ -570,9 +554,9 @@ ${editInstructions}
 ${strictConstraints}
 
 Note: The orange polygon from IMAGE 2 should NOT appear in your output.
-Return the edited IMAGE 1 only as a high-quality realistic image with NO GEOMETRY CHANGES.`;
+Return the edited IMAGE 1 only as a high-quality realistic image.`;
     } else if (hasWalls) {
-        return `TASK: INPAINTING / IMAGE EDITING
+        return `You are a professional interior design AI assistant.
 
 I provide TWO images of the same room:
 
@@ -581,9 +565,10 @@ IMAGE 1 (Current): The room photo that needs editing.
 IMAGE 2 (Reference): Shows wall(s) marked with ORANGE POLYGON overlay.
 The polygon indicates the EXACT wall surface to edit.
 
-YOUR GOAL:
-1. Identify the wall location from IMAGE 2 (area inside orange polygon)
-2. Inpaint that SAME wall area in IMAGE 1 with the target color.
+YOUR TASK:
+1. Look at IMAGE 2 to identify the wall location (area inside orange polygon)
+2. Find the SAME wall in IMAGE 1 (match by position, windows, doors, architectural features)
+3. Change ONLY that wall surface to the target color
 
 EDITS TO APPLY:
 ${editInstructions}
@@ -591,25 +576,25 @@ ${editInstructions}
 ${strictConstraints}
 
 Note: The orange polygon from IMAGE 2 should NOT appear in your output.
-Return the edited IMAGE 1 only as a high-quality realistic image with NO GEOMETRY CHANGES.`;
+Return the edited IMAGE 1 only as a high-quality realistic image.`;
     } else {
         // Floor only - no marked image provided
-        return `TASK: INPAINTING / IMAGE EDITING
+        return `You are a professional interior design AI assistant.
 
 I provide ONE image of a room:
 
 IMAGE 1: The room photo that needs flooring changes.
 
-YOUR GOAL:
-1. Auto-segment the floor area in the room (where floor meets walls/furniture)
-2. INPAINT the detected floor area with the new material.
+YOUR TASK:
+1. Auto-detect the floor area in the room (where floor meets walls/furniture)
+2. Apply the specified flooring material to the detected floor area
 
 EDITS TO APPLY:
 ${editInstructions}
 
 ${strictConstraints}
 
-Return the edited image as a high-quality realistic photo with NO GEOMETRY CHANGES.`;
+Return the edited image as a high-quality realistic photo.`;
     }
 }
 
