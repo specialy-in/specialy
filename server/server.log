@@ -1,0 +1,306 @@
+2026-01-29T09:46:33.947Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T09:48:55.232Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T09:49:29.733Z - ⏱️  Render time: 35.8s 
+2026-01-29T09:49:29.734Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T09:49:29.736Z - 🔍 Gemini Response candidates: 1
+2026-01-29T09:49:29.738Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T09:49:29.740Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T09:49:29.741Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":732096,"hasText":false}
+2026-01-29T09:52:24.521Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T09:53:06.121Z - ⏱️  Render time: 42.9s 
+2026-01-29T09:53:06.126Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T09:53:06.130Z - 🔍 Gemini Response candidates: 1
+2026-01-29T09:53:06.134Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T09:53:06.137Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T09:53:06.141Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":735040,"hasText":false}
+2026-01-29T09:53:06.143Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":735040}
+2026-01-29T09:56:39.628Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T09:57:22.318Z - ⏱️  Render time: 44.0s 
+2026-01-29T09:57:22.320Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T09:57:22.323Z - 🔍 Gemini Response candidates: 1
+2026-01-29T09:57:22.324Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T09:57:22.325Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T09:57:22.331Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":733280,"hasText":false}
+2026-01-29T09:57:22.335Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":733280}
+2026-01-29T09:57:22.339Z - 📝 Mock mode: returning base64 data URL (length: 733303) 
+2026-01-29T10:05:18.489Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T10:05:46.629Z - ⏱️  Render time: 29.0s 
+2026-01-29T10:05:46.631Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T10:05:46.633Z - 🔍 Gemini Response candidates: 1
+2026-01-29T10:05:46.635Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T10:05:46.638Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T10:05:46.640Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":740020,"hasText":false}
+2026-01-29T10:05:46.644Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":740020}
+2026-01-29T10:05:46.649Z - 📝 Mock mode: returning base64 data URL (length: 740043) 
+2026-01-29T10:08:44.147Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T10:09:06.858Z - ⏱️  Render time: 23.8s 
+2026-01-29T10:09:06.860Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T10:09:06.861Z - 🔍 Gemini Response candidates: 1
+2026-01-29T10:09:06.862Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T10:09:06.863Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T10:09:06.864Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":735204,"hasText":false}
+2026-01-29T10:09:06.865Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":735204}
+2026-01-29T10:09:06.868Z - 📝 Mock mode: returning base64 data URL (length: 735227) 
+2026-01-29T10:18:14.407Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T10:18:36.003Z - ⏱️  Render time: 22.7s 
+2026-01-29T10:18:36.012Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T10:18:36.026Z - 🔍 Gemini Response candidates: 1
+2026-01-29T10:18:36.030Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T10:18:36.036Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T10:18:36.040Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":732276,"hasText":false}
+2026-01-29T10:18:36.044Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":732276}
+2026-01-29T10:18:36.052Z - 📝 Mock mode: returning base64 data URL (length: 732299) 
+2026-01-29T10:22:52.623Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T10:23:23.957Z - ⏱️  Render time: 32.5s 
+2026-01-29T10:23:23.958Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T10:23:23.959Z - 🔍 Gemini Response candidates: 1
+2026-01-29T10:23:23.960Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T10:23:23.961Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T10:23:23.962Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":747680,"hasText":false}
+2026-01-29T10:23:23.963Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":747680}
+2026-01-29T10:23:23.965Z - 📝 Mock mode: returning base64 data URL (length: 747703) 
+2026-01-29T10:26:04.363Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T10:26:33.313Z - ⏱️  Render time: 30.0s 
+2026-01-29T10:26:33.314Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T10:26:33.315Z - 🔍 Gemini Response candidates: 1
+2026-01-29T10:26:33.316Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T10:26:33.317Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T10:26:33.318Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":738528,"hasText":false}
+2026-01-29T10:26:33.319Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":738528}
+2026-01-29T10:26:33.324Z - 📝 Mock mode: returning base64 data URL (length: 738551) 
+2026-01-29T12:48:58.750Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T12:49:20.360Z - ⏱️  Render time: 23.0s 
+2026-01-29T12:49:20.362Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T12:49:20.364Z - 🔍 Gemini Response candidates: 1
+2026-01-29T12:49:20.365Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T12:49:20.367Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T12:49:20.372Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":735280,"hasText":false}
+2026-01-29T12:49:20.376Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":735280}
+2026-01-29T12:49:20.381Z - 📝 Mock mode: returning base64 data URL (length: 735303) 
+2026-01-29T12:52:46.243Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T12:53:20.686Z - ⏱️  Render time: 35.5s 
+2026-01-29T12:53:20.693Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T12:53:20.701Z - 🔍 Gemini Response candidates: 1
+2026-01-29T12:53:20.704Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T12:53:20.706Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T12:53:20.710Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":736884,"hasText":false}
+2026-01-29T12:53:20.711Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":736884}
+2026-01-29T12:53:20.712Z - 📝 Mock mode: returning base64 data URL (length: 736907) 
+2026-01-29T12:55:46.446Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T12:56:23.063Z - ⏱️  Render time: 38.0s 
+2026-01-29T12:56:23.066Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T12:56:23.068Z - 🔍 Gemini Response candidates: 1
+2026-01-29T12:56:23.069Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T12:56:23.071Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T12:56:23.073Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":732948,"hasText":false}
+2026-01-29T12:56:23.076Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":732948}
+2026-01-29T12:56:23.078Z - 📝 Mock mode: returning base64 data URL (length: 732971) 
+2026-01-29T13:26:33.118Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T13:26:56.912Z - ⏱️  Render time: 25.1s 
+2026-01-29T13:26:56.915Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T13:26:56.916Z - 🔍 Gemini Response candidates: 1
+2026-01-29T13:26:56.918Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T13:26:56.921Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T13:26:56.929Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":744040,"hasText":false}
+2026-01-29T13:26:56.933Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":744040}
+2026-01-29T13:26:57.028Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-29T13:26:57.031Z - 📝 Mock mode: returning base64 data URL (length: 91307) 
+2026-01-29T17:23:35.211Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-29T17:23:56.970Z - ⏱️  Render time: 23.1s 
+2026-01-29T17:23:56.972Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-29T17:23:56.973Z - 🔍 Gemini Response candidates: 1
+2026-01-29T17:23:56.974Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-29T17:23:56.975Z - 🔍 Candidate 0 parts count: 1
+2026-01-29T17:23:56.981Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":741064,"hasText":false}
+2026-01-29T17:23:56.983Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":741064}
+2026-01-29T17:23:57.028Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-29T17:23:57.030Z - 📝 Mock mode: returning base64 data URL (length: 89383) 
+2026-01-30T09:06:04.527Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T09:07:22.564Z - ⏱️  Render time: 82.4s 
+2026-01-30T09:07:22.566Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T09:07:22.570Z - 🔍 Gemini Response candidates: 1
+2026-01-30T09:07:22.572Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T09:07:22.576Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T09:07:22.581Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":733276,"hasText":false}
+2026-01-30T09:07:22.587Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":733276}
+2026-01-30T09:07:22.680Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T09:07:22.682Z - 📝 Mock mode: returning base64 data URL (length: 87975) 
+2026-01-30T09:47:57.073Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T09:48:19.713Z - ⏱️  Render time: 22.7s 
+2026-01-30T09:48:19.714Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T09:48:19.717Z - 🔍 Gemini Response candidates: 1
+2026-01-30T09:48:19.719Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T09:48:19.725Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T09:48:19.729Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":869468,"hasText":false}
+2026-01-30T09:48:19.738Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":869468}
+2026-01-30T09:48:19.860Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T09:48:19.865Z - 📝 Mock mode: returning base64 data URL (length: 106379) 
+2026-01-30T09:48:39.855Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T09:49:00.919Z - ⏱️  Render time: 21.1s 
+2026-01-30T09:49:00.921Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T09:49:00.924Z - 🔍 Gemini Response candidates: 1
+2026-01-30T09:49:00.928Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T09:49:00.936Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T09:49:00.938Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":906776,"hasText":false}
+2026-01-30T09:49:00.941Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":906776}
+2026-01-30T09:49:01.022Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T09:49:01.024Z - 📝 Mock mode: returning base64 data URL (length: 113067) 
+2026-01-30T10:08:13.068Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T10:08:30.541Z - ⏱️  Render time: 17.5s 
+2026-01-30T10:08:30.546Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T10:08:30.550Z - 🔍 Gemini Response candidates: 1
+2026-01-30T10:08:30.555Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T10:08:30.559Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T10:08:30.560Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":945120,"hasText":false}
+2026-01-30T10:08:30.562Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":945120}
+2026-01-30T10:08:30.623Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T10:08:30.626Z - 📝 Mock mode: returning base64 data URL (length: 114947) 
+2026-01-30T10:08:58.201Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T10:09:16.252Z - ⏱️  Render time: 18.1s 
+2026-01-30T10:09:16.256Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T10:09:16.258Z - 🔍 Gemini Response candidates: 1
+2026-01-30T10:09:16.261Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T10:09:16.263Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T10:09:16.265Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":904624,"hasText":false}
+2026-01-30T10:09:16.268Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":904624}
+2026-01-30T10:09:16.319Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T10:09:16.321Z - 📝 Mock mode: returning base64 data URL (length: 115939) 
+2026-01-30T11:27:20.947Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T11:27:40.059Z - ⏱️  Render time: 20.4s 
+2026-01-30T11:27:40.065Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T11:27:40.076Z - 🔍 Gemini Response candidates: 1
+2026-01-30T11:27:40.090Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T11:27:40.093Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T11:27:40.096Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":753576,"hasText":false}
+2026-01-30T11:27:40.102Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":753576}
+2026-01-30T11:27:40.167Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T11:27:40.172Z - 📝 Mock mode: returning base64 data URL (length: 90359) 
+2026-01-30T11:28:22.938Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T11:28:40.579Z - ⏱️  Render time: 17.7s 
+2026-01-30T11:28:40.586Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T11:28:40.591Z - 🔍 Gemini Response candidates: 1
+2026-01-30T11:28:40.592Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T11:28:40.594Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T11:28:40.596Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":762680,"hasText":false}
+2026-01-30T11:28:40.599Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":762680}
+2026-01-30T11:28:40.657Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T11:28:40.659Z - 📝 Mock mode: returning base64 data URL (length: 92763) 
+2026-01-30T11:29:13.537Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T11:29:32.852Z - ⏱️  Render time: 19.3s 
+2026-01-30T11:29:32.856Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T11:29:32.859Z - 🔍 Gemini Response candidates: 1
+2026-01-30T11:29:32.861Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T11:29:32.869Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T11:29:32.873Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":818004,"hasText":false}
+2026-01-30T11:29:32.875Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":818004}
+2026-01-30T11:29:32.925Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T11:29:32.929Z - 📝 Mock mode: returning base64 data URL (length: 108603) 
+2026-01-30T11:35:58.550Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-01-30T11:36:15.832Z - ⏱️  Render time: 17.4s 
+2026-01-30T11:36:15.835Z - 🔍 Full response structure {"candidatesCount":1}
+2026-01-30T11:36:15.838Z - 🔍 Gemini Response candidates: 1
+2026-01-30T11:36:15.841Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-01-30T11:36:15.845Z - 🔍 Candidate 0 parts count: 1
+2026-01-30T11:36:15.847Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":823080,"hasText":false}
+2026-01-30T11:36:15.848Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":823080}
+2026-01-30T11:36:15.915Z - 📐 Resized to: {"width":626,"height":417}
+2026-01-30T11:36:15.918Z - 📝 Mock mode: returning base64 data URL (length: 108919) 
+2026-02-01T12:53:41.144Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-01T12:53:57.703Z - ⏱️  Render time: 17.8s 
+2026-02-01T12:53:57.705Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-01T12:53:57.707Z - 🔍 Gemini Response candidates: 1
+2026-02-01T12:53:57.709Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-01T12:53:57.711Z - 🔍 Candidate 0 parts count: 1
+2026-02-01T12:53:57.715Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":988044,"hasText":false}
+2026-02-01T12:53:57.717Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":988044}
+2026-02-01T12:53:57.808Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-01T15:40:37.449Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-01T15:41:01.934Z - ⏱️  Render time: 25.8s 
+2026-02-01T15:41:01.941Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-01T15:41:01.950Z - 🔍 Gemini Response candidates: 1
+2026-02-01T15:41:01.959Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-01T15:41:01.966Z - 🔍 Candidate 0 parts count: 1
+2026-02-01T15:41:01.970Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":925316,"hasText":false}
+2026-02-01T15:41:01.973Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":925316}
+2026-02-01T15:41:02.042Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-01T16:23:37.762Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-01T16:24:04.299Z - ⏱️  Render time: 27.9s 
+2026-02-01T16:24:04.301Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-01T16:24:04.304Z - 🔍 Gemini Response candidates: 1
+2026-02-01T16:24:04.309Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-01T16:24:04.314Z - 🔍 Candidate 0 parts count: 1
+2026-02-01T16:24:04.323Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":733824,"hasText":false}
+2026-02-01T16:24:04.326Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":733824}
+2026-02-01T16:24:04.400Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:13:46.702Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:14:14.023Z - ⏱️  Render time: 28.6s 
+2026-02-02T11:14:14.025Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:14:14.027Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:14:14.028Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:14:14.029Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:14:14.032Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":933584,"hasText":false}
+2026-02-02T11:14:14.034Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":933584}
+2026-02-02T11:14:14.087Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:21:04.047Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:21:35.024Z - ⏱️  Render time: 32.5s 
+2026-02-02T11:21:35.029Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:21:35.043Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:21:35.050Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:21:35.052Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:21:35.056Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":1034904,"hasText":false}
+2026-02-02T11:21:35.059Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":1034904}
+2026-02-02T11:21:35.126Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:21:59.900Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:22:20.327Z - ⏱️  Render time: 21.1s 
+2026-02-02T11:22:20.330Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:22:20.335Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:22:20.341Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:22:20.347Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:22:20.355Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":1013148,"hasText":false}
+2026-02-02T11:22:20.361Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":1013148}
+2026-02-02T11:22:20.452Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:25:55.228Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:26:19.257Z - ⏱️  Render time: 25.3s 
+2026-02-02T11:26:19.261Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:26:19.266Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:26:19.271Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:26:19.272Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:26:19.273Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":869536,"hasText":false}
+2026-02-02T11:26:19.276Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":869536}
+2026-02-02T11:26:19.372Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:28:48.464Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:29:07.949Z - ⏱️  Render time: 20.6s 
+2026-02-02T11:29:07.951Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:29:07.956Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:29:07.961Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:29:07.963Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:29:07.968Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":983580,"hasText":false}
+2026-02-02T11:29:07.973Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":983580}
+2026-02-02T11:29:08.081Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:31:35.766Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:31:59.552Z - ⏱️  Render time: 25.0s 
+2026-02-02T11:31:59.553Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:31:59.554Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:31:59.554Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:31:59.554Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:31:59.555Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":908008,"hasText":false}
+2026-02-02T11:31:59.555Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":908008}
+2026-02-02T11:31:59.583Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:38:45.049Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:39:26.381Z - ⏱️  Render time: 41.7s 
+2026-02-02T11:39:26.383Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:39:26.385Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:39:26.387Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:39:26.388Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:39:26.391Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":1095924,"hasText":false}
+2026-02-02T11:39:26.392Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":1095924}
+2026-02-02T11:39:26.457Z - 📐 Resized to: {"width":626,"height":417}
+2026-02-02T11:43:13.858Z - 🤖 Calling Gemini with model: gemini-3-pro-image-preview 
+2026-02-02T11:43:55.333Z - ⏱️  Render time: 42.7s 
+2026-02-02T11:43:55.342Z - 🔍 Full response structure {"candidatesCount":1}
+2026-02-02T11:43:55.343Z - 🔍 Gemini Response candidates: 1
+2026-02-02T11:43:55.345Z - 🔍 Candidate 0 finishReason: "STOP"
+2026-02-02T11:43:55.349Z - 🔍 Candidate 0 parts count: 1
+2026-02-02T11:43:55.353Z - 🔍 Part 0: {"hasInlineData":true,"mimeType":"image/jpeg","dataLength":1061560,"hasText":false}
+2026-02-02T11:43:55.356Z - ✅ Found image: {"mimeType":"image/jpeg","dataLength":1061560}
+2026-02-02T11:43:55.421Z - 📐 Resized to: {"width":626,"height":417}
