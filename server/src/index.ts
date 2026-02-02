@@ -28,10 +28,22 @@ let bucket: any = null;
 
 try {
     const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || './serviceAccountKey.json';
+    const envJson = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
 
-    if (process.env.GOOGLE_APPLICATION_CREDENTIALS || fs.existsSync(credPath)) {
+    let credential;
+    if (envJson) {
+        try {
+            credential = cert(JSON.parse(envJson));
+        } catch (e) {
+            console.error('[Firebase] ❌ Failed to parse FIREBASE_SERVICE_ACCOUNT_JSON', e);
+        }
+    } else if (process.env.GOOGLE_APPLICATION_CREDENTIALS || fs.existsSync(credPath)) {
+        credential = cert(credPath);
+    }
+
+    if (credential) {
         initializeApp({
-            credential: cert(credPath),
+            credential,
             storageBucket: process.env.FIREBASE_STORAGE_BUCKET
         });
         db = getFirestore();

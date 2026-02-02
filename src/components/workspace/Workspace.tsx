@@ -913,7 +913,7 @@ const Workspace: React.FC = () => {
         }, 3000);
 
         try {
-            const apiUrl = 'http://localhost:3001';
+            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
             const response = await fetch(`${apiUrl}/api/render-changes`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
